@@ -23,9 +23,9 @@ const TestimonialCard = ({ name, age, text, className }: TestimonialCardProps) =
       </div>
       <div className="mt-4 flex items-center justify-between">
         <div>
-          <p className="font-semibold text-gray-800">{name}, {age} anos</p>
+          <p className="font-semibold text-dark-green">{name}, {age} anos</p>
         </div>
-        <div className="h-1 w-12 bg-mint rounded-full"></div>
+        <div className="h-1 w-12 bg-dark-green rounded-full"></div>
       </div>
     </div>
   );

@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -44,7 +43,7 @@ const Index = () => {
         {/* Block 1 - Pain Points */}
         <section className="section-container">
           <div className="max-w-4xl mx-auto">
-            <h2 className="section-title scroll-reveal">
+            <h2 className="section-title text-dark-green scroll-reveal">
               VOCÊ JÁ ACORDOU SENTINDO-SE PESADA E INCHADA SEM MOTIVO?
             </h2>
             
@@ -60,7 +59,7 @@ const Index = () => {
                 
                 <div className="bg-mint-light p-6 rounded-xl border border-mint/20 mb-6">
                   <p className="font-semibold text-gray-800 mb-2">O que ninguém te conta:</p>
-                  <p className="text-lg">Você pode estar retendo até <span className="text-xl font-bold text-mint-dark">2kg de líquidos</span> sem perceber! Isso te faz sentir mais pesada, cansada e até mais irritada ao longo do dia.</p>
+                  <p className="text-lg">Você pode estar retendo até <span className="text-xl font-bold text-dark-green">2kg de líquidos</span> sem perceber! Isso te faz sentir mais pesada, cansada e até mais irritada ao longo do dia.</p>
                 </div>
                 
                 <p className="text-lg text-gray-700 mb-6">
@@ -69,15 +68,15 @@ const Index = () => {
                 
                 <ul className="space-y-2 mb-6">
                   <li className="flex items-start">
-                    <Check className="h-5 w-5 text-mint mr-2 mt-1 flex-shrink-0" />
+                    <Check className="h-5 w-5 text-dark-green mr-2 mt-1 flex-shrink-0" />
                     <span>Sem remédios</span>
                   </li>
                   <li className="flex items-start">
-                    <Check className="h-5 w-5 text-mint mr-2 mt-1 flex-shrink-0" />
+                    <Check className="h-5 w-5 text-dark-green mr-2 mt-1 flex-shrink-0" />
                     <span>Sem academia</span>
                   </li>
                   <li className="flex items-start">
-                    <Check className="h-5 w-5 text-mint mr-2 mt-1 flex-shrink-0" />
+                    <Check className="h-5 w-5 text-dark-green mr-2 mt-1 flex-shrink-0" />
                     <span>Sem dietas mirabolantes</span>
                   </li>
                 </ul>
@@ -90,7 +89,7 @@ const Index = () => {
               <div className="md:w-1/3 flex justify-center scroll-reveal">
                 <div className="relative">
                   <div className="w-64 h-64 rounded-full bg-mint/10 flex items-center justify-center animate-pulse-soft">
-                    <AlertTriangle size={80} className="text-mint-dark animate-float" />
+                    <AlertTriangle size={80} className="text-dark-green animate-float" />
                   </div>
                   <div className="absolute -bottom-4 -right-4 bg-mint-light rounded-full p-4 shadow-lg border border-mint/20">
                     <p className="font-semibold text-gray-800 text-center">2kg+ <br/> de inchaço!</p>
@@ -104,7 +103,7 @@ const Index = () => {
         {/* Block 2 - Why other solutions failed */}
         <section className="section-container bg-gray-50">
           <div className="max-w-4xl mx-auto">
-            <h2 className="section-title scroll-reveal">
+            <h2 className="section-title text-dark-green scroll-reveal">
               POR QUE DIETAS E CHÁS GENÉRICOS NÃO FUNCIONAM?
             </h2>
             
@@ -211,7 +210,7 @@ const Index = () => {
                 <p className="text-lg text-gray-700 mb-6">
                   Ou seja, nada de soluções genéricas – é um plano ajustado às necessidades do seu corpo.
                 </p>
-                <p className="text-xl font-bold text-mint-dark mb-8">
+                <p className="text-xl font-bold text-dark-green mb-8">
                   E o mais surpreendente? Mulheres que fizeram esse desafio relataram que em apenas 3 dias já viram a diferença na barriga, pernas e rosto!
                 </p>
                 <p className="text-lg text-gray-700 mb-8">
@@ -229,7 +228,7 @@ const Index = () => {
         {/* Block 4 - Testimonials */}
         <section className="section-container bg-gray-50">
           <div className="max-w-5xl mx-auto">
-            <h2 className="section-title scroll-reveal">
+            <h2 className="section-title text-dark-green scroll-reveal">
               O QUE AS MULHERES ESTÃO DIZENDO SOBRE O DESAFIO?
             </h2>
             
@@ -268,12 +267,12 @@ const Index = () => {
         {/* Block 5 - Final CTA */}
         <section className="section-container bg-gradient-to-b from-white to-mint-light/50">
           <div className="max-w-4xl mx-auto">
-            <h2 className="section-title scroll-reveal">
+            <h2 className="section-title text-dark-green scroll-reveal">
               DÊ ADEUS AO INCHAÇO EM 7 DIAS – TESTE AGORA!
             </h2>
             
             <div className="bg-white rounded-2xl shadow-xl p-8 border border-mint/10 mt-10 scroll-reveal">
-              <p className="text-center text-xl font-bold text-mint-dark mb-8">
+              <p className="text-center text-xl font-bold text-dark-green mb-8">
                 AGORA É SUA VEZ DE TESTAR ESSE MÉTODO VIRAL!
               </p>
               

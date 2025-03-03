@@ -67,6 +67,7 @@ export default {
 				"mint": "#8EDCE6", // Verde-água
 				"mint-light": "#C6F1F7",
 				"mint-dark": "#5BB6C2",
+				"dark-green": "#1E4538", // Nova cor verde escuro para os títulos
 				"cta-orange": "#FF7E36",
 				"cta-orange-hover": "#FF6010",
 				"cta-orange-light": "#FFEFE6",

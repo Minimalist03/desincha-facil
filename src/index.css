@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
 
 @tailwind base;
@@ -118,7 +117,7 @@
   }
 
   .highlight-text {
-    @apply text-mint-dark font-semibold;
+    @apply text-dark-green font-semibold;
   }
 
   .shimmer-bg {
@@ -126,7 +125,7 @@
   }
 
   .text-shimmer {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-mint to-mint-dark animate-text-shimmer;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-dark-green to-dark-green/70 animate-text-shimmer;
   }
 
   .glass-card {
