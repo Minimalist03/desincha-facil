@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
 
 @tailwind base;
@@ -109,11 +110,11 @@
 
 @layer components {
   .section-container {
-    @apply max-w-[1200px] mx-auto px-6 md:px-8 py-20 overflow-hidden;
+    @apply max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8 py-12 sm:py-16 md:py-20 overflow-hidden;
   }
 
   .section-title {
-    @apply text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-center uppercase font-display tracking-tight;
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 text-center uppercase font-display tracking-tight leading-tight;
   }
 
   .highlight-text {
@@ -137,11 +138,11 @@
   }
   
   .testimonial-quote {
-    @apply text-5xl text-mint/30 absolute -top-2 left-4;
+    @apply text-4xl sm:text-5xl text-mint/30 absolute -top-2 left-2 sm:left-4;
   }
   
   .testimonial-card {
-    @apply bg-white rounded-2xl p-6 shadow-lg relative border border-mint/10 transition-all duration-300;
+    @apply bg-white rounded-2xl p-5 sm:p-6 shadow-lg relative border border-mint/10 transition-all duration-300;
   }
   
   .testimonial-card:hover {
@@ -163,6 +164,12 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Touch-optimized classes */
+button, a, [role="button"] {
+  @apply touch-manipulation;
 }
 
 /* Scroll reveal animation */
@@ -175,4 +182,24 @@ html {
 .reveal {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* Better readable font size for mobile - base text */
+body {
+  @apply text-[15px] sm:text-base;
+}
+
+/* Optimize for mobile view */
+@media (max-width: 640px) {
+  .section-container {
+    @apply py-10;
+  }
+  
+  h2 {
+    @apply leading-tight;
+  }
+  
+  .testimonial-card {
+    @apply mb-4;
+  }
 }
