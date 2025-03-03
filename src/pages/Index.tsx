@@ -87,13 +87,12 @@ const Index = () => {
                 </p>
                 
                 {/* New before/after image added here */}
-                <div className="mt-8 mb-10 mx-auto max-w-md scroll-reveal">
-                  <div className="relative rounded-xl overflow-hidden shadow-lg border border-mint/20">
-                    <img 
-                      src="/lovable-uploads/81fee600-8c66-4bb5-b3de-d81ea8acd9db.png" 
-                      alt="Antes e depois de mulher que reduziu o inchaço" 
-                      className="w-full h-auto"
-                    />
+                <img 
+  src="/lovable-uploads/81fee600-8c66-4bb5-b3de-d81ea8acd9db.png" 
+  alt="Antes e depois de mulher que reduziu o inchaço" 
+  className="w-full h-auto hidden"
+/>
+
                     <div className="absolute top-0 left-0 bg-mint/80 text-white text-xs font-semibold py-1 px-3 rounded-br-lg">
                       Resultado Real
                     </div>
