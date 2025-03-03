@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -96,6 +99,81 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-off-white text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
   }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold tracking-tight;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-[1200px] mx-auto px-6 md:px-8 py-20 overflow-hidden;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-center uppercase font-display tracking-tight;
+  }
+
+  .highlight-text {
+    @apply text-mint-dark font-semibold;
+  }
+
+  .shimmer-bg {
+    @apply bg-gradient-to-r from-transparent via-white/20 to-transparent bg-[length:200%_100%] animate-background-shine;
+  }
+
+  .text-shimmer {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-mint to-mint-dark animate-text-shimmer;
+  }
+
+  .glass-card {
+    @apply bg-white/90 backdrop-blur-sm border border-white/20 shadow-lg;
+  }
+
+  .cta-glow {
+    @apply relative overflow-hidden after:absolute after:inset-0 after:bg-gradient-to-r after:from-cta-orange-light/0 after:via-white/30 after:to-cta-orange-light/0 after:animate-background-shine;
+  }
+  
+  .testimonial-quote {
+    @apply text-5xl text-mint/30 absolute -top-2 left-4;
+  }
+  
+  .testimonial-card {
+    @apply bg-white rounded-2xl p-6 shadow-lg relative border border-mint/10 transition-all duration-300;
+  }
+  
+  .testimonial-card:hover {
+    @apply shadow-xl translate-y-[-4px];
+  }
+  
+  .underline-animation {
+    @apply relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-mint after:transition-transform after:duration-300 after:ease-in-out hover:after:origin-bottom-left hover:after:scale-x-100;
+  }
+
+  .scroll-reveal {
+    @apply opacity-0 translate-y-8 transition-all duration-700;
+  }
+  
+  .reveal {
+    @apply opacity-100 translate-y-0;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scroll reveal animation */
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(25px);
+  transition: all 0.7s ease-out;
+}
+
+.reveal {
+  opacity: 1;
+  transform: translateY(0);
 }
