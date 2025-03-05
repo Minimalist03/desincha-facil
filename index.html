@@ -7,13 +7,373 @@
     <title>Método Anti-Inchaço | Desinche em 7 dias</title>
     <meta name="description" content="Descubra como desinchar em apenas 7 dias com nosso método personalizado que já ajudou milhares de mulheres." />
     <meta name="author" content="Método Anti-Inchaço" />
-    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:image" content="./public/og-image.png" />
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <div id="root"></div>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="/src/main.tsx"></script>
+    <div id="root">
+      <!-- Header -->
+      <header class="header">
+        <div class="header-container">
+          <div class="logo">
+            <img src="./public/logo.svg" alt="Método Anti-Inchaço" class="logo-img">
+          </div>
+          <div class="header-actions">
+            <a href="#fazerTeste" class="cta-button">FAZER O TESTE</a>
+          </div>
+        </div>
+      </header>
+      
+      <!-- Main content -->
+      <main class="main-content">
+        <!-- Block 1 - Pain Points -->
+        <section class="section-container">
+          <div class="max-container">
+            <h2 class="section-title scroll-reveal">
+              VOCÊ JÁ ACORDOU SENTINDO-SE PESADA E INCHADA SEM MOTIVO?
+            </h2>
+            
+            <div class="flex-container">
+              <div class="content-column scroll-reveal">
+                <p class="text-content">
+                  Você já acordou se sentindo pesada, inchada, desconfortável, mesmo sem ter comido nada exagerado no dia anterior? Ou talvez tenha colocado uma roupa que adorava e… ela ficou apertada de repente?
+                </p>
+                
+                <p class="text-content">
+                  A verdade é que milhares de mulheres sofrem com inchaço todos os dias – e a culpa não é só da alimentação.
+                </p>
+                
+                <div class="highlight-box">
+                  <p class="highlight-title">O que ninguém te conta:</p>
+                  <p class="highlight-content">Você pode estar retendo até <span class="text-bold">2kg de líquidos</span> sem perceber! Isso te faz sentir mais pesada, cansada e até mais irritada ao longo do dia.</p>
+                </div>
+                
+                <p class="text-content">
+                  E se eu te dissesse que apenas 3 perguntas podem revelar exatamente o que está causando o seu inchaço – e ainda gerar um plano 100% personalizado para desinchar em apenas 7 dias?
+                </p>
+                
+                <ul class="check-list">
+                  <li class="check-item">
+                    <span class="check-icon">✓</span>
+                    <span>Sem remédios</span>
+                  </li>
+                  <li class="check-item">
+                    <span class="check-icon">✓</span>
+                    <span>Sem academia</span>
+                  </li>
+                  <li class="check-item">
+                    <span class="check-icon">✓</span>
+                    <span>Sem dietas mirabolantes</span>
+                  </li>
+                </ul>
+                
+                <p class="text-content">
+                  Parece bom demais para ser verdade? Então continue lendo e descubra como essa técnica viral está ajudando milhares de mulheres!
+                </p>
+                
+                <div class="before-after-container">
+                  <div class="before-after-image">
+                    <img src="./public/lovable-uploads/81fee600-8c66-4bb5-b3de-d81ea8acd9db.png" alt="Antes e depois de mulher que reduziu o inchaço">
+                    <div class="result-badge">Resultado Real</div>
+                  </div>
+                  <p class="image-caption">
+                    Resultado de uma cliente após 7 dias seguindo o método personalizado
+                  </p>
+                </div>
+              </div>
+              
+              <div class="icon-column scroll-reveal">
+                <div class="icon-circle">
+                  <div class="alert-icon">⚠️</div>
+                  <div class="weight-badge">2kg+ <br> de inchaço!</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <!-- Block 2 - Why other solutions failed -->
+        <section class="section-container gray-bg">
+          <div class="max-container">
+            <h2 class="section-title scroll-reveal">
+              POR QUE DIETAS E CHÁS GENÉRICOS NÃO FUNCIONAM?
+            </h2>
+            
+            <div class="content-block scroll-reveal">
+              <p class="text-content">
+                Se você já tentou chá diurético, dietas malucas ou academia e ainda se sente inchada, você não está sozinha. O problema dessas soluções é que elas tratam o inchaço como se fosse gordura – mas na maioria das vezes, não é!
+              </p>
+              
+              <div class="glass-card">
+                <p class="card-title">A verdade que ninguém te conta:</p>
+                <p class="card-content">
+                  Seu corpo pode estar retendo líquidos e toxinas devido a uma combinação de fatores que variam de pessoa para pessoa.
+                </p>
+              </div>
+              
+              <div class="factors-list">
+                <div class="factor-item">
+                  <span class="check-icon">✓</span>
+                  <div>
+                    <p class="factor-text">
+                      Algumas mulheres incham por causa de um único alimento específico que elas nem desconfiam.
+                    </p>
+                  </div>
+                </div>
+                
+                <div class="factor-item">
+                  <span class="check-icon">✓</span>
+                  <div>
+                    <p class="factor-text">
+                      Outras, por falta de um tipo específico de movimento (não, não é academia!).
+                    </p>
+                  </div>
+                </div>
+                
+                <div class="factor-item">
+                  <span class="check-icon">✓</span>
+                  <div>
+                    <p class="factor-text">
+                      E algumas, por desequilíbrio hormonal silencioso, que faz o corpo segurar água.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              <p class="subheading">
+                O que fazer então?
+              </p>
+              
+              <p class="text-content">
+                A boa notícia é que existe um método simples e testado que está ajudando mulheres a zerar o inchaço sem precisar cortar tudo da alimentação ou viver na academia.
+              </p>
+            </div>
+          </div>
+        </section>
+        
+        <!-- Block 3 - The Solution -->
+        <section class="section-container">
+          <div class="max-container">
+            <h2 class="section-title text-shimmer scroll-reveal">
+              CONHEÇA O MÉTODO VIRAL QUE ESTÁ TRANSFORMANDO VIDAS!
+            </h2>
+            
+            <div class="content-block scroll-reveal">
+              <p class="text-content">
+                Recentemente, um método simples e surpreendente começou a viralizar entre mulheres de 35+ que lutavam contra o inchaço sem sucesso. Ele funciona assim:
+              </p>
+              
+              <div class="method-card">
+                <div class="method-step">
+                  <div class="step-number">1</div>
+                  <p class="step-text">
+                    Você responde 3 perguntas rápidas que identificam a principal causa do seu inchaço.
+                  </p>
+                </div>
+                
+                <div class="method-step">
+                  <div class="step-number">2</div>
+                  <div>
+                    <p class="step-text">
+                      Com base nessas respostas, você recebe um plano prático de 7 dias com:
+                    </p>
+                    <ul class="dot-list">
+                      <li class="dot-item">
+                        <span class="dot"></span>
+                        <span>Receitas de chás e sucos específicos para o seu tipo de inchaço.</span>
+                      </li>
+                      <li class="dot-item">
+                        <span class="dot"></span>
+                        <span>Rotinas diárias de 10 minutos que ativam o metabolismo e reduzem a retenção de líquidos.</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="cta-section">
+                <p class="cta-title">
+                  O melhor de tudo? Esse método é totalmente personalizado para VOCÊ!
+                </p>
+                <p class="text-content">
+                  Ou seja, nada de soluções genéricas – é um plano ajustado às necessidades do seu corpo.
+                </p>
+                <p class="cta-highlight">
+                  E o mais surpreendente? Mulheres que fizeram esse desafio relataram que em apenas 3 dias já viram a diferença na barriga, pernas e rosto!
+                </p>
+                <p class="text-content">
+                  E agora, você também pode testar esse método ainda hoje… gratuitamente!
+                </p>
+                
+                <a href="#fazerTeste" class="cta-button large pulse-soft" id="fazerTeste">
+                  FAZER O TESTE GRATUITO AGORA! →
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <!-- Block 4 - Testimonials -->
+        <section class="section-container gray-bg">
+          <div class="max-container wide">
+            <h2 class="section-title scroll-reveal">
+              O QUE AS MULHERES ESTÃO DIZENDO SOBRE O DESAFIO?
+            </h2>
+            
+            <p class="text-center text-content margin-bottom scroll-reveal">
+              O desafio de 7 dias para reduzir o inchaço já ajudou milhares de mulheres a se sentirem mais leves, menos cansadas e com a barriga menos estufada. Veja o que algumas delas disseram:
+            </p>
+            
+            <div class="testimonials-grid">
+              <div class="testimonial-card">
+                <div class="quote-mark">"</div>
+                <div class="testimonial-content">
+                  <p>Eu sempre me sentia inchada, especialmente na barriga e nas pernas. Fiz o desafio e no terceiro dia já notei a diferença! Meu rosto desinchou, minha barriga ficou mais lisa e me senti mais leve. Parece mágica!</p>
+                </div>
+                <div class="testimonial-author">
+                  <p class="author-name">Ana, 42 anos</p>
+                </div>
+              </div>
+              
+              <div class="testimonial-card">
+                <div class="quote-mark">"</div>
+                <div class="testimonial-content">
+                  <p>Eu já tentei de tudo para diminuir o inchaço, mas nada funcionava a longo prazo. Com esse desafio, percebi que eu estava inchando por um motivo que nunca imaginei! Segui o plano e em 7 dias meu corpo desinchou como nunca antes!</p>
+                </div>
+                <div class="testimonial-author">
+                  <p class="author-name">Carla, 38 anos</p>
+                </div>
+              </div>
+              
+              <div class="testimonial-card">
+                <div class="quote-mark">"</div>
+                <div class="testimonial-content">
+                  <p>Eu via esse método em todo lugar e resolvi testar. Que surpresa maravilhosa! Perdi 2kg de puro inchaço e voltei a usar roupas que estavam apertadas. Sem remédios, sem passar fome, sem academia!</p>
+                </div>
+                <div class="testimonial-author">
+                  <p class="author-name">Luciana, 45 anos</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="text-center margin-top scroll-reveal">
+              <p class="subheading">
+                E agora, é a sua vez! O que você vai fazer? Continuar se sentindo inchada e desconfortável ou testar essa técnica que já ajudou milhares de mulheres?
+              </p>
+            </div>
+          </div>
+        </section>
+        
+        <!-- Block 5 - Final CTA -->
+        <section class="section-container gradient-bg">
+          <div class="max-container">
+            <h2 class="section-title scroll-reveal">
+              DÊ ADEUS AO INCHAÇO EM 7 DIAS – TESTE AGORA!
+            </h2>
+            
+            <div class="final-cta-card scroll-reveal">
+              <p class="final-cta-title">
+                AGORA É SUA VEZ DE TESTAR ESSE MÉTODO VIRAL!
+              </p>
+              
+              <p class="text-content">
+                Imagine acordar daqui a 7 dias e perceber que:
+              </p>
+              
+              <div class="benefits-list">
+                <div class="benefit-item">
+                  <span class="check-icon">✓</span>
+                  <p class="benefit-text">Sua barriga está visivelmente menos inchada</p>
+                </div>
+                
+                <div class="benefit-item">
+                  <span class="check-icon">✓</span>
+                  <p class="benefit-text">Seu rosto está mais fino e menos 'estufado'</p>
+                </div>
+                
+                <div class="benefit-item">
+                  <span class="check-icon">✓</span>
+                  <p class="benefit-text">Você se sente mais leve e confortável nas roupas</p>
+                </div>
+                
+                <div class="benefit-item">
+                  <span class="check-icon">✓</span>
+                  <p class="benefit-text">Suas pernas não ficam mais pesadas no fim do dia</p>
+                </div>
+              </div>
+              
+              <p class="text-content">
+                Isso não é promessa vazia – é um método baseado 100% no seu corpo, que já ajudou milhares de mulheres a se livrarem do inchaço de uma vez por todas!
+              </p>
+              
+              <div class="how-it-works">
+                <p class="how-title">
+                  COMO FUNCIONA?
+                </p>
+                
+                <div class="steps-list">
+                  <div class="numbered-step">
+                    <div class="small-number">1</div>
+                    <p class="step-description">
+                      Faça o teste gratuito e responda 3 perguntas rápidas para descobrir o que está causando seu inchaço.
+                    </p>
+                  </div>
+                  
+                  <div class="numbered-step">
+                    <div class="small-number">2</div>
+                    <p class="step-description">
+                      Receba seu plano personalizado de 7 dias, com receitas e rotinas criadas para VOCÊ!
+                    </p>
+                  </div>
+                  
+                  <div class="numbered-step">
+                    <div class="small-number">3</div>
+                    <p class="step-description">
+                      Acesse tudo por apenas <span class="text-bold">R$29,90</span> – um valor simbólico para você finalmente se livrar do inchaço e se sentir leve e renovada!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="guarantee-box">
+                <p class="guarantee-text">
+                  E tem mais: Se em até 7 dias você não ver resultados, devolvemos 100% do seu dinheiro!
+                </p>
+              </div>
+              
+              <div class="final-cta-button-container">
+                <a href="#fazerTeste" class="cta-button large cta-glow">
+                  FAZER O TESTE GRATUITO AGORA! →
+                </a>
+                
+                <p class="warning-text">
+                  ⚠️ Atenção! Essa oferta pode sair do ar a qualquer momento devido ao alto número de acessos. Garanta seu acesso agora!
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-logo">
+            <img src="./public/logo.svg" alt="Método Anti-Inchaço" class="footer-logo-img">
+          </div>
+          <div class="footer-links">
+            <a href="#" class="footer-link">Política de Privacidade</a>
+            <a href="#" class="footer-link">Termos de Uso</a>
+          </div>
+          <p class="footer-copyright">
+            © 2023 Método Anti-Inchaço. Todos os direitos reservados.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
