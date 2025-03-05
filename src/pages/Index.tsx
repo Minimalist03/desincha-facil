@@ -86,21 +86,20 @@ const Index = () => {
                   Parece bom demais para ser verdade? Então continue lendo e descubra como essa técnica viral está ajudando milhares de mulheres!
                 </p>
                 
-                {/* New before/after image added here */}
-                <img 
-  src="/lovable-uploads/81fee600-8c66-4bb5-b3de-d81ea8acd9db.png" 
-  alt="Antes e depois de mulher que reduziu o inchaço" 
-  className="w-full h-auto hidden"
-/>
-
-                    <div className="absolute top-0 left-0 bg-mint/80 text-white text-xs font-semibold py-1 px-3 rounded-br-lg">
-                      Resultado Real
-                    </div>
+                {/* Before/after image */}
+                <div className="relative mt-4 mb-6 border-2 border-mint rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/81fee600-8c66-4bb5-b3de-d81ea8acd9db.png" 
+                    alt="Antes e depois de mulher que reduziu o inchaço" 
+                    className="w-full h-auto"
+                  />
+                  <div className="absolute top-0 left-0 bg-mint/80 text-white text-xs font-semibold py-1 px-3 rounded-br-lg">
+                    Resultado Real
                   </div>
-                  <p className="text-center text-sm text-gray-500 mt-2 italic">
-                    Resultado de uma cliente após 7 dias seguindo o método personalizado
-                  </p>
                 </div>
+                <p className="text-center text-sm text-gray-500 mt-2 italic">
+                  Resultado de uma cliente após 7 dias seguindo o método personalizado
+                </p>
               </div>
               
               <div className="md:w-1/3 flex justify-center scroll-reveal">
